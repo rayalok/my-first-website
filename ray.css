@@ -1,0 +1,211 @@
+*
+{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a{text-decoration: none;
+color:black;}
+/*---header--*/
+
+h2
+{
+    font-size: 50px;
+    text-align: center;
+    padding: 30px 0px; 
+
+
+}
+
+.header
+{
+    width:100%;
+    height:600px;
+    background-image: url(jj.jpg);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+
+
+}
+
+.nav
+{
+    height: 50px;
+    padding: 30px 100px;
+}
+
+.nav h1 {
+    float: left;
+
+}
+
+.nav ul{
+    list-style-type: none;
+    float: right;
+}
+.nav li{
+    display: inline-block;
+    padding: 8px 12px;
+   
+}
+
+.nav li a
+{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.banner-text
+{
+    position: absolute;
+    width:90%;
+    text-align: center;
+    top: 40%;
+    left: 8%;
+}
+
+.banner-text h3{
+    font-size: 40px;
+    font-family:cursive ;
+    margin-bottom: 20px ;
+    color: red;
+
+}
+
+.banner-text p{
+    font-size: 20px;    
+    margin-bottom: 20px ;
+    
+}
+
+.banner-text .txt
+{
+    width: 400px;
+    height:50px; 
+    font-size: 20px;
+    padding-left: 30px;
+}
+.banner-text .btn 
+{
+    width:150px ;
+    height: 50px;
+    border: 1px solid red;
+    background-color: turquoise;
+    font-size: 20px;
+    font-weight: bold;
+
+
+
+}
+
+/*---about--*/
+
+.about
+{
+    width:100%;
+    height:600px ;   
+    padding: 30px 100px;
+}
+
+.about p 
+{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;   
+
+}
+
+.about-area
+{
+    margin-top:15px ;
+
+}
+.about-text
+{
+    width: 240px;
+    float: left;
+    border: 2px solid rgb(43, 38, 38) ;
+    color: rgb(12, 115, 175);
+    padding: 40px 20px;
+    text-align: center;
+    margin: 10px;
+}
+
+/*--franchies--*/
+.franchies
+{
+    width: 100%;
+    height: 600px;
+    background-color: black;
+    padding: 30px 100px;
+    color: white;
+}
+
+.franchies-area
+{
+    padding: 40px 0px;
+}
+
+.franchies-area img{
+    width:50%;
+    float: left;
+}
+
+.franchies-text{
+    float: right;
+    width: 45%;
+    font-size: 20px;
+
+}
+/*--contact--*/
+.contact
+{
+    width: 100%;
+    height: 600px;
+    padding: 30px 100px;
+
+}
+
+.conatct-area
+{
+    padding:30px 0px;
+}
+.contact-form
+{
+    width: 50%;
+    float: left;
+}
+
+.contact-form .txt, .txtarea{
+    width: 100%;
+    height: 50px;
+    border: 1px solid red;
+    margin: 8px;
+    font-size: 15px;
+
+}
+
+.txtarea
+{
+    height: 100px;
+}
+
+.contact-map
+{
+    float: right;
+    width: 45%;
+}
+.footer
+{
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+
+}
+
+
+
